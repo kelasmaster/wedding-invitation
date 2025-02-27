@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="invitation-container">
+    <header class="header">
+      <h1>We're Getting Married!</h1>
+      <p class="subheading">Join us as we celebrate our special day</p>
+    </header>
+
+    <section class="details">
+      <div class="couple-names">
+        <h2>John & Jane</h2>
+      </div>
+      <div class="event-info">
+        <p><strong>Date:</strong> December 25, 2023</p>
+        <p><strong>Time:</strong> 3:00 PM</p>
+        <p><strong>Venue:</strong> Grand Ballroom, New York</p>
+      </div>
+    </section>
+
+    <section class="rsvp">
+      <h3>RSVP</h3>
+      <form id="rsvp-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="confirmation-message" class="hidden">Thank you for RSVPing!</p>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2023 John & Jane's Wedding</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
